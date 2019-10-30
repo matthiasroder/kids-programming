@@ -18,7 +18,7 @@ def scoreUp(score, correct=True):
 def frage(score):
     a = random.randint(1,100)
     b = random.randint(1,100)
-    ops = ['+', '-']
+    ops = ['+', '-', '-', '-']
     z = random.choice(ops)
     print("Wieviel ist {} {} {}?".format(a, z, b))
     ergebnis = eval(str(a) + str(z) + str(b))
